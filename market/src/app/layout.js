@@ -11,9 +11,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-BR">
-      <Header />
       <body>
-        <h1 className={styles.title}>Bom te ver novamente!</h1>
+        <Header />
         {children}
         {/* <Footer /> */}
       </body>
