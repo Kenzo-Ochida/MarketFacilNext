@@ -2,8 +2,11 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import Link from "next/link";
 import Produto from "./components/produto/Produto";
+import { redirect } from 'next/navigation';
 
 export default function Home() {
+  // redirect('/cadastro');
+  
   const produtos = [
     {id: 'alface', nome: 'Alface', imagem: '/images/assets/alface.png', preco: 3.50, seller: "Zé Quitandas"},
     {id: 'sapato', nome: 'Sapato', imagem: '/images/assets/sapato.png', preco: 54.60, seller: "Sapataria Benedito"},
