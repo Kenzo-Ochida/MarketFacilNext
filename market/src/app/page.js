@@ -15,10 +15,13 @@ export default function Home() {
   ];
 
   return (
-    <section className={styles.main_content}>
-      {produtos.map(produto => (
-        <Produto key={produto.id} produto={produto}/>
-      ))}
+    <section>
+      <h1 className={styles.title}>Bom te ver novamente!</h1>
+      <article className={styles.main_content}>
+        {produtos.map(produto => (
+          <Produto key={produto.id} produto={produto}/>
+        ))}
+      </article>
     </section>
   );
 }
