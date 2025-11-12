@@ -51,11 +51,8 @@
     cursor: pointer;
 }
 
-.cards p button:hover {
+.cards article button:hover {
     background: #084298;
-}
-
-.cards p button:active {
     transform: scale(0.9);
 }
 
