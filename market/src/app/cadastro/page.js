@@ -26,7 +26,6 @@ export default function Cadastro() {
     }
   };
 
-  // 🔹 Função para submeter e redirecionar
   const handleSubmit = (e) => {
     e.preventDefault();
 
@@ -40,8 +39,6 @@ export default function Cadastro() {
       return;
     }
 
-    // Aqui poderia salvar os dados, se quisesse
-    // Depois, redireciona para a Home
     router.push("/");
   };
 

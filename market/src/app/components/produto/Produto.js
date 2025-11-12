@@ -28,7 +28,7 @@ const Produto = ({ produto }) => {
             <article className={styles.quant_btns}>
                 <button className={styles.minus_btn} onClick={decrease}>-</button> {/* Classe preventiva */}
                 <p className={styles.buy_text}>
-                    {quant == 0 ? "Selecione" : quant}
+                    {quant == 0 ? "Selecione" : ("Comprar " + quant)}
                 </p>
                 <button className={styles.plus_btn} onClick={increase}>+</button> {/* Classe preventiva */}
             </article>
