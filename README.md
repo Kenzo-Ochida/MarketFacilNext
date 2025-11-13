@@ -159,7 +159,7 @@ Se houver erro:
 borda fica vermelha;
 aparece a mensagem de erro.
 
-## components/
+### components/
 ### Header.js
 
 Declarações iniciais
@@ -248,7 +248,7 @@ Explicação:
 Disponibiliza o componente para ser importado em outras partes da aplicação.
 
 ### produto/
-## Proudto.js
+### Proudto.js
 
 
 Declarações iniciais
@@ -339,7 +339,7 @@ export default Produto;
 Explicação: Torna o componente disponível para uso em outras partes da aplicação.
 
 ### produtos/[id]
-## page.js
+### page.js
 
 'use client';
 import React from 'react';
@@ -463,7 +463,7 @@ Copiar código
 Explicação: Os botões permitem aumentar ou diminuir a quantidade. O texto muda dinamicamente conforme o valor do estado e recebe uma classe extra quando a quantidade é maior que zero, permitindo estilização diferente.
 
 
-## Sobre/
+### Sobre/
 ### page.js
 
 import Header from '../components/Header';
@@ -488,7 +488,7 @@ Dentro da section existe um article.
 O article contém um título e três parágrafos explicando o objetivo e a motivação do MarketFácil.
 Cada parágrafo está separado com quebras de linha.
 
-##layout.js
+###layout.js
 
 
 // app/layout.js
