@@ -20,9 +20,9 @@ const Produto = ({ produto }) => {
     return (
         <article className={styles.cards}>
             <Link key={produto.id} href={`/produtos/${produto.id}`} className={styles.produtoLink}>
-                <Image alt={produto.nome} src={produto.imagem} width={150} height={140}/>
-                <h2>{produto.nome}</h2>
-                <p>{produto.seller}</p>
+                <Image alt={produto.product_name} src={produto.image_url} width={150} height={140}/>
+                <h2>{produto.product_name}</h2>
+                <p>{produto.creator}</p>
             </Link>
             {/* Botões fora do Link */}
             <article className={styles.quant_btns}>
